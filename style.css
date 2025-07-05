@@ -112,28 +112,63 @@ section {
 
 /* Mobile */
 @media (max-width: 768px) {
-  .skills-cards { flex-direction: column; align-items: center; }
-}
-.skill-card ul li {
-  display: flex;
-  align-items: center;
-  font-size: 14px;
-  padding: 6px 0;
-  gap: 10px;
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 100px 20px 60px;
+  }
+
+  .hero-text {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .hero-text h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+  }
+
+  .hero-text h2 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+
+  .hero-subline {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+  }
+
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 25px;
+  }
+
+  .hero-buttons a {
+    width: 100%;
+    max-width: 240px;
+  }
+
+  .hero-quote {
+    font-size: 13px;
+    font-style: italic;
+    margin-bottom: 30px;
+    padding: 0 10px;
+  }
+
+  .hero-image img {
+    width: 80%;
+    max-width: 220px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 14px;
+  }
 }
 
-.skill-card ul li img {
-  width: 20px;
-  height: 20px;
-  object-fit: contain;
-}
-
-.cert-badge {
-  margin-top: 15px;
-  width: 90px;
-  height: auto;
-  display: block;
-} */
 
 .about-new {
   padding: 100px 20px;
